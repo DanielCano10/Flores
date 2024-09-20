@@ -11,7 +11,19 @@
 
   </head>
   <body class="container">
-    <audio id="myAudio" src="musica/fondo.wav" autoplay loop></audio>
+    <audio id="background-music" src="musica/fondo.mp3" autoplay loop></audio>
+    <script>
+      window.onload = function() {
+        var audio = document.getElementById("background-music");
+        
+        audio.play().then(() => {
+          console.log("Música reproducida automáticamente.");
+        }).catch((error) => {
+          console.error("La reproducción automática está bloqueada por el navegador. Interacción requerida.");
+        });
+      };
+
+    </script>
     
     <h1 class="titulo">Estas flores amarillas son un reflejo de la alegría que traes a mi vida. <br> <br>
       Gracias por iluminar mis días con tu presencia.</h1>
