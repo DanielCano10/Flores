@@ -1633,6 +1633,33 @@ h1 {
   line-height: 1.5;
   margin-bottom: 20px;
 }
+.centrado {
+  margin: 0 auto;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  color: yellow;
+  position: absolute;
+  font-weight: bold;
+  letter-spacing: 10px;
+  opacity: 0;
+  animation: fadeIn 3s ease-in-out forwards;
+  text-align: center;
+}
+
+.arriba {
+  margin-bottom: 180px;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  color: #ffff00;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  letter-spacing: 10px;
+  opacity: 0;
+  animation: fadeIn 3s ease-in-out forwards;
+  text-align: center;
+}
+
 
 /* Media Queries para tamaños de pantalla diferentes */
 @media screen and (max-width: 600px) {
