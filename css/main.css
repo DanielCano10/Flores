@@ -1638,6 +1638,7 @@ h1 {
   font-family: "Arial Narrow", Arial, sans-serif;
   color: yellow;
   position: absolute;
+  bottom: 10%;
   font-weight: bold;
   letter-spacing: 10px;
   opacity: 0;
@@ -1649,7 +1650,7 @@ h1 {
   font-family: "Arial Narrow", Arial, sans-serif;
   color: #ffff00;
   position: absolute;
-  top: 20%;
+  top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-weight: bold;
